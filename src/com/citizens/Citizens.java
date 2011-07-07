@@ -255,7 +255,7 @@ public class Citizens extends JavaPlugin {
 			possible.add(entry.getValue());
 		}
 		if (possible.size() > 0) {
-			sender.sendMessage(ChatColor.GRAY + "Unknown command. Did you mean:");
+			sender.sendMessage(ChatColor.GRAY + "Spatny prikaz. Mel jsi na mysli:");
 			for (String string : possible) {
 				sender.sendMessage(StringUtils.wrap("    /") + command + " "
 						+ StringUtils.wrap(string));
